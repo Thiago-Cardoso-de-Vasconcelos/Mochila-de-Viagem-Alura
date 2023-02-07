@@ -14,7 +14,9 @@ html {
 .principal {
     flex-grow: 1;
     flex-basis: auto;
-    min-width: 600px;
+    min-width:400px;
+    max-width:600px;
+    width: 100%;
     padding: 4em 2em 2em;
     box-sizing: border-box;
     display: flex;
@@ -124,8 +126,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
     Background: #C5965F;
     font-weight: 400;
 }
